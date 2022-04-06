@@ -1,3 +1,3 @@
-module github.com/RaniSputnik/lovepac
+module github.com/psucodervn/lovepac
 
 go 1.15
