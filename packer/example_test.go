@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/RaniSputnik/lovepac/packer"
-	"github.com/RaniSputnik/lovepac/target"
+	"github.com/psucodervn/lovepac/packer"
+	"github.com/psucodervn/lovepac/target"
 )
 
 func ExampleRun() {

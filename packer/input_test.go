@@ -6,7 +6,7 @@ import (
 
 	"sync"
 
-	"github.com/RaniSputnik/lovepac/packer"
+	"github.com/psucodervn/lovepac/packer"
 )
 
 func TestFileStream(t *testing.T) {

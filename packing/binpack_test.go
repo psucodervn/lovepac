@@ -3,7 +3,7 @@ package packing_test
 import (
 	"testing"
 
-	. "github.com/RaniSputnik/lovepac/packing"
+	. "github.com/psucodervn/lovepac/packing"
 )
 
 func TestBinPackingReturnsResults(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	. "github.com/RaniSputnik/lovepac/packing"
+	. "github.com/psucodervn/lovepac/packing"
 )
 
 var blocks = []Block{

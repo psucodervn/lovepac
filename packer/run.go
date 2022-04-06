@@ -8,8 +8,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/RaniSputnik/lovepac/packing"
-	"github.com/RaniSputnik/lovepac/target"
+	"github.com/psucodervn/lovepac/packing"
+	"github.com/psucodervn/lovepac/target"
 )
 
 type NameFormatter func(name string, index int) string

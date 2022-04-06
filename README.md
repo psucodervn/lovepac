@@ -6,7 +6,7 @@ A texture packer for [love2d](https://love2d.org) written in Go lang.
 With [go](https://golang.org/) installed;
 
 ```
-go get github.com/RaniSputnik/lovepac
+go get github.com/psucodervn/lovepac
 ```
 
 ### Features
@@ -49,8 +49,8 @@ packages.
 ```
 import (
   ...
-  "github.com/RaniSputnik/lovepac/packer"
-  "github.com/RaniSputnik/lovepac/target"
+  "github.com/psucodervn/lovepac/packer"
+  "github.com/psucodervn/lovepac/target"
 )
 ...
 params := packer.Params{
@@ -64,7 +64,7 @@ params := packer.Params{
 log.Fatal(packer.Run(context.Background(), &params))
 ```
 
-See the [godoc](https://godoc.org/github.com/RaniSputnik/lovepac/packer) for
+See the [godoc](https://godoc.org/github.com/psucodervn/lovepac/packer) for
 more information and examples.
 
 ### Adding Output Targets
@@ -87,7 +87,7 @@ These are the results I get on my machine when packing 55 sample assets.
 $ go test ./packer -bench=. -benchmem
 goos: darwin
 goarch: amd64
-pkg: github.com/RaniSputnik/lovepac/packer
+pkg: github.com/psucodervn/lovepac/packer
 BenchmarkPack512x512-8                        50          27129564 ns/op        13675566 B/op       8004 allocs/op
 BenchmarkPack1024x1024-8                      10         176355710 ns/op        17693480 B/op     160332 allocs/op
 BenchmarkPack2048x2048-8                       5         287248694 ns/op        25469216 B/op     160370 allocs/op

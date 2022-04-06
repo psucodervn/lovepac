@@ -3,15 +3,15 @@ package target_test
 import (
 	"testing"
 
-	"github.com/RaniSputnik/lovepac/target"
+	"github.com/psucodervn/lovepac/target"
 )
 
 func TestIsValid(t *testing.T) {
 	formats := map[target.Format]bool{
-		target.Unknown:                                            false,
-		target.Love:                                               true,
-		target.Starling:                                           true,
-		target.Format{Ext: "lua"}:                                 false,
+		target.Unknown:            false,
+		target.Love:               true,
+		target.Starling:           true,
+		target.Format{Ext: "lua"}: false,
 		target.Format{Template: target.Love.Template}:             false,
 		target.Format{Template: target.Love.Template, Ext: "lua"}: true,
 	}
